@@ -1,0 +1,51 @@
+*{
+margin: 0px auto;
+}
+
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    background-color: #6181f5;
+    font-size: 25px;
+    font-weight: 900;
+    justify-content: space-around;
+  }
+  li a{
+      display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  
+li a:hover {
+    background-color: rgb(35, 4, 170);
+  }
+  .active {
+    background-color: rgb(7, 182, 36);
+  }
+  .cart{
+    width: 22%;
+    padding-left: 68%;
+  }
+  .navbar p{
+    padding-right: 20px;
+    padding: 14px 16px;
+
+  }
+  #item {
+    color: black;
+    position: absolute;
+    /* z-index: 1; */
+    right: 11.8%;
+    padding: 0px 5px;
+    background-color: white;
+    border-radius: 49%;
+    font-size: 18px;
+  }
+
+.d_flex{
+display: flex;
+}
